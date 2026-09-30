@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "src/epd_driver.c"
+        "src/epd_ssd1683.c"
+    INCLUDE_DIRS
+        "inc"
+    REQUIRES
+        driver
+        esp_lcd
+)
