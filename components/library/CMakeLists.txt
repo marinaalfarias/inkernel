@@ -1,6 +1,6 @@
 idf_component_register(
     SRCS
-        "src/library.c"
+        "src/library.cpp"
     INCLUDE_DIRS
         "inc"
     REQUIRES

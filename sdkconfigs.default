@@ -1,0 +1,12 @@
+# Chip alvo
+CONFIG_IDF_TARGET="esp32s3"
+
+# Log level
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# Desabilitar exceções C++ (economia de flash/RAM)
+CONFIG_COMPILER_CXX_EXCEPTIONS=n
+CONFIG_COMPILER_CXX_RTTI=n
+
+# Frequência da CPU
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
